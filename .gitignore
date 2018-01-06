@@ -1,0 +1,11 @@
+# Ignore dependencies, these will be installed on the first build
+src/lib/*
+!src/lib/setup.cfg
+
+# Ignore output
+output/*
+
+# Python stuff
+.cache
+__pycache__
+*.pyc
